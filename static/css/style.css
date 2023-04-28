@@ -24,18 +24,18 @@ header{
     white-space: nowrap;
     transition: 0.3s;
     text-transform: uppercase;
-    
 }
 
-a.nav-link {
+h1, h2, h3, h4, h5, h6 {
     color: #bc1e2d;
+    font-weight: bolder;
 }
 
-a.nav-link.active {
+.nav-link {
     color: #bc1e2d !important;
+}
+
+.nav-link.active, .nav-link:hover {
     font-weight: bold;
 }
 
-.nav-link:hover {
-    color: #bc1e2d;
-}
