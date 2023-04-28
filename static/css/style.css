@@ -1,13 +1,19 @@
-.img-brand{
-    height : 75px;
+.img-brand {
+    height: 100px;
     width: auto;
-    }
+}
 
 body {
     font-family: Montserrat, "Open Sans", Arial;
     color: rgb(68, 68, 68);
 }
-.navbar a, .navbar a:focus {
+
+header{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar a,
+.navbar a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,13 +24,18 @@ body {
     white-space: nowrap;
     transition: 0.3s;
     text-transform: uppercase;
+    
 }
 
-.nav-link:active{
+a.nav-link {
     color: #bc1e2d;
+}
+
+a.nav-link.active {
+    color: #bc1e2d !important;
     font-weight: bold;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #bc1e2d;
-    font-weight: bold;
 }
