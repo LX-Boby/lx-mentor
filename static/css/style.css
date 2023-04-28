@@ -1,0 +1,30 @@
+.img-brand{
+    height : 75px;
+    width: auto;
+    }
+
+body {
+    font-family: Montserrat, "Open Sans", Arial;
+    color: rgb(68, 68, 68);
+}
+.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #BC1E2D;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.nav-link:active{
+    color: #bc1e2d;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #bc1e2d;
+    font-weight: bold;
+}
