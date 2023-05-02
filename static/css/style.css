@@ -29,6 +29,7 @@ header{
 h1, h2, h3, h4, h5, h6 {
     color: #bc1e2d;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .nav-link {
@@ -38,4 +39,13 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link.active, .nav-link:hover {
     font-weight: bold;
 }
+
+#main {
+    margin: 50px 0px;
+}
+
+#courses {
+    margin: 100px 0px;
+}
+
 
