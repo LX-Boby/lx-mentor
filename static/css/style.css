@@ -1,10 +1,9 @@
 .img-brand {
     height: 100px;
-    width: auto;
 }
 
 body {
-    font-family: Montserrat, "Open Sans", Arial;
+    font-family: "Montserrat", "Open Sans", Arial;
     color: rgb(68, 68, 68);
 }
 
@@ -29,10 +28,6 @@ header{
 h1, h2, h3, h4, h5, h6 {
     color: #bc1e2d;
     font-weight: bolder;
-}
-
-.uppercase {
-    text-transform: uppercase;
 }
 
 .nav-link {
